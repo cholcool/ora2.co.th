@@ -139,7 +139,7 @@
 <div class="section firstsec">	
 	<div class="row">
         <div class="col-md-12">
-              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <div id="myCarousel" class="carousel slide" data-ride="carousel" style="display: none;">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>

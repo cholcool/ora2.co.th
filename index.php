@@ -137,7 +137,7 @@
 
 <div class="section firstsec">	
 	<div class="row">
-		<div class="col-md-12 banner-top-slide">
+		<div class="col-md-12 banner-top-slide" style="display: none;">
             <a href="http://www.ora2.co.th/campaign2017" target="_blank">
                 <img src="images/20170616_Ora2_Winner_Post_Web.jpg" class="img-responsive topban">
                 <img src="images/20170616_Ora2_Winner_Post_FB.jpg" class="img-responsive tabletbanner" >
