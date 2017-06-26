@@ -1,0 +1,530 @@
+<?php 
+include 'head.php'; 
+?>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+
+        <div class="col-sm-12">
+            <div class="langtop">
+                <a href="stores.php" class="disabled">th</a> |
+                <a href="en/stores.php"> en</a>
+            </div>
+        </div>
+        
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.php"><img src="images/logo.png" class="img-responsive" style="  margin: 0;" /></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+           <li class="page-scroll home">
+                        <a href="index.php">Home</a>
+                    </li>
+
+                    <li class="page-scroll ora2city">
+                        <a href="city.php">Ora<sup>2</sup> City</a>
+                    </li>
+
+                    <li class="page-scroll ora2care">
+                        <a href="ora2care.php">Ora<sup>2</sup> Care</a>
+                    </li>
+
+                    <li class="page-scroll products">
+                        <a href="products.php">Products</a>
+                    </li>
+
+                    <li class="page-scroll stores active">
+                        <a href="stores.php">Stores</a>
+                    </li>
+          
+          
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+
+        <div class="col-sm-12 langcol">
+            <div class="langbottom">
+                <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                  <div class="btn-group" role="group">
+                    <a href="stores.php" class="btn btn-info disabled">ภาษาไทย</a>
+                  </div>
+                  <div class="btn-group" role="group">
+                    <a href="en/stores.php" class="btn btn-info">English</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Header -->
+
+
+<div class="wrapper">
+
+
+<div class="section topbar storestopbar">	
+	<div class="container">
+	       <div class="row">
+				<div class="col-md-12 col-sm-12">      
+					<!--h2>Stores</h2-->
+					<h2>ร้านค้า</h2>
+			</div>
+		</div>
+	</div>	
+</div>
+
+
+<section id="stores">
+  <div class="container">  
+      <form class="navbar-form" role="search" >
+        <div class="srchstyle" style="display:none;"">
+            <input type="text" class="form-control" placeholder="Highlight Words" name="hilite" id="searchItem" autosave="some_unique_value" >
+        </div>
+      </form>
+    <nav>
+      <center>
+      <div class="col-sm-12">
+
+        <ul class="pagination headstor">
+          <li role="presentation" class="active"><a aria-controls="sakha" role="tab" data-toggle="tab" href="#tab_boots"><img src="images/logo_boots.gif"></a></li>
+          <li role="presentation"><a aria-controls="sakha" role="tab" data-toggle="tab" href="#tab_ufm"><img src="images/logo_ufm_fuji_super.gif"></a></li>
+          <li role="presentation"><a aria-controls="sakha" role="tab" data-toggle="tab" href="#tab_tsuruha"><img src="images/logo_tsuruha.gif"></a></li>
+          <li role="presentation"><a aria-controls="sakha" role="tab" data-toggle="tab" href="#tab_lab"><img src="images/logo_lab_pharmacy.gif"></a></li>
+          <li role="presentation"><a aria-controls="sakha" role="tab" data-toggle="tab" href="#ta_ogenki"><img src="images/logo_ogenki.gif"></a></li>
+          <li role="presentation"><a aria-controls="sakha" role="tab" data-toggle="tab" href="#tab_ucare"><img src="images/logo_ucare.gif"></a></li>
+          <li role="presentation"><a aria-controls="sakha" role="tab" data-toggle="tab" href="#tab_gourmet_market"><img src="images/logo_gourmet_market.gif"></a></li>
+<br class="none_br"><!-- display:none; br for tablet phone -->
+          <li role="presentation"><a aria-controls="sakha" role="tab" data-toggle="tab" href="#tab_matsumotokiyoshi"><img src="images/logo_storematsumoto.jpg"></a></li>
+          <li role="presentation"><a aria-controls="sakha" role="tab" data-toggle="tab" href="#tab_home_fresh_mart"><img src="images/logo_home_fresh_mart.gif"></a></li>
+          <li><a aria-controls="sakha" role="tab" data-toggle="tab" href="#tab_central_food_hall"><img src="images/logo_central_food_hall.gif"></a></li>
+          <li><a aria-controls="sakha" role="tab" data-toggle="tab" href="#tab_tops_super_store"><img src="images/logo_tops_super_store.gif"></a></li>
+          <li><a aria-controls="sakha" role="tab" data-toggle="tab" href="#tab_tops_daily"><img src="images/logo_tops_daily.gif"></a></li>
+          <li><a aria-controls="sakha" role="tab" data-toggle="tab" href="#tab_tops_super_kum"><img src="images/logo_2.gif"></a></li>
+<br class="none_br">
+          <li><a aria-controls="sakha" role="tab" data-toggle="tab" href="#tab_pharmahof"><img src="images/logo_fascino.jpg"></a></li>
+          <li><a aria-controls="sakha" role="tab" data-toggle="tab" href="#tab_lawson_108"><img src="images/logo_lawson_108.gif"></a></li>
+          <li><a aria-controls="sakha" role="tab" data-toggle="tab" href="#tab_central_drugs_house"><img src="images/logo_central_drugs_house.gif"></a></li>
+          <li><a aria-controls="sakha" role="tab" data-toggle="tab" href="#tab_watson"><img src="images/logo_watsons.gif"></a></li>
+        </ul>
+
+      </div>
+      </center>
+    </nav>
+      <div class="denie"></div>
+      <div class="sakha col-sm-12">
+        <span>สาขา</span>
+      </div>
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- /////////////////////////////////  QUERY table "tbl_boots"   /////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<?php 
+include 'config.php';
+  
+  $sql_boots1 = "SELECT * FROM tbl_boots LIMIT 83";
+  $query_boots1 = $conn->query($sql_boots1);
+
+  $sql_boots2 = "SELECT * FROM tbl_boots LIMIT 83 OFFSET 83";
+  $query_boots2 = $conn->query($sql_boots2);
+
+  $sql_boots3 = "SELECT * FROM tbl_boots LIMIT 83 OFFSET 166";
+  $query_boots3 = $conn->query($sql_boots3);
+?>
+
+  <div class="tab-content ">
+    <div id="tab_boots" role="tabpanel" class="tab-pane fade in active " >
+
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_boots1->num_rows > 0) {
+     while($row_boots1 = $query_boots1->fetch_assoc()) {
+         echo "<p> ". $row_boots1["boots_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?> 
+
+      </div>
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_boots2->num_rows > 0) {
+     while($row_boots2 = $query_boots2->fetch_assoc()) {
+         echo "<p> ". $row_boots2["boots_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?> 
+
+      </div>
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_boots3->num_rows > 0) {
+     while($row_boots3 = $query_boots3->fetch_assoc()) {
+          echo "<p> ". $row_boots3["boots_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?> 
+
+      </div>
+    </div>
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- /////////////////////////////////  QUERY table "tbl_watson"   ////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<?php
+  $sql_watson1 = "SELECT * FROM tbl_watson LIMIT 92";
+  $query_watson1 = $conn->query($sql_watson1);
+
+  $sql_watson2 = "SELECT * FROM tbl_watson LIMIT 92 OFFSET 92";
+  $query_watson2 = $conn->query($sql_watson2);
+
+  $sql_watson3 = "SELECT * FROM tbl_watson LIMIT 92 OFFSET 184";
+  $query_watson3 = $conn->query($sql_watson3);
+?>
+    <div id="tab_watson" class="tab-pane fade">
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_watson1->num_rows > 0) {
+     while($row_watson1 = $query_watson1->fetch_assoc()) {
+         echo "<p> ". $row_watson1["watson_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?>
+
+      </div>
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_watson2->num_rows > 0) {
+     while($row_watson2 = $query_watson2->fetch_assoc()) {
+         echo "<p> ". $row_watson2["watson_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?>
+
+      </div>
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_watson3->num_rows > 0) {
+     while($row_watson3 = $query_watson3->fetch_assoc()) {
+         echo "<p> ". $row_watson3["watson_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?>
+
+      </div>
+    </div>
+
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- /////////////////////////////////  QUERY table "tbl_lab"   ////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<?php
+  $sql_lab1 = "SELECT * FROM tbl_lab LIMIT 5";
+  $query_lab1 = $conn->query($sql_lab1);
+
+  $sql_lab2 = "SELECT * FROM tbl_lab LIMIT 5 OFFSET 5";
+  $query_lab2 = $conn->query($sql_lab2);
+
+  $sql_lab3 = "SELECT * FROM tbl_lab LIMIT 5 OFFSET 10";
+  $query_lab3 = $conn->query($sql_lab3);
+?>
+    <div id="tab_lab" class="tab-pane fade">
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_lab1->num_rows > 0) {
+     while($row_lab1 = $query_lab1->fetch_assoc()) {
+         echo "<p> ". $row_lab1["lab_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?>
+
+      </div>
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_lab2->num_rows > 0) {
+     while($row_lab2 = $query_lab2->fetch_assoc()) {
+         echo "<p> ". $row_lab2["lab_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?>
+
+      </div>
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_lab3->num_rows > 0) {
+     while($row_lab3 = $query_lab3->fetch_assoc()) {
+         echo "<p> ". $row_lab3["lab_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?>
+
+      </div>
+    </div>
+
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- /////////////////////////////////  QUERY table "tbl_tsuruha"   ////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<?php
+  $sql_tsuruha1 = "SELECT * FROM tbl_tsuruha LIMIT 8";
+  $query_tsuruha1 = $conn->query($sql_tsuruha1);
+
+  $sql_tsuruha2 = "SELECT * FROM tbl_tsuruha LIMIT 8 OFFSET 8";
+  $query_tsuruha2 = $conn->query($sql_tsuruha2);
+
+  $sql_tsuruha3 = "SELECT * FROM tbl_tsuruha LIMIT 8 OFFSET 16";
+  $query_tsuruha3 = $conn->query($sql_tsuruha3);
+?>
+    <div id="tab_tsuruha" class="tab-pane fade">
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_tsuruha1->num_rows > 0) {
+     while($row_tsuruha1 = $query_tsuruha1->fetch_assoc()) {
+         echo "<p> ". $row_tsuruha1["tsuruha_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?>
+
+      </div>
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_tsuruha2->num_rows > 0) {
+     while($row_tsuruha2 = $query_tsuruha2->fetch_assoc()) {
+         echo "<p> ". $row_tsuruha2["tsuruha_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?>
+
+      </div>
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_tsuruha3->num_rows > 0) {
+     while($row_tsuruha3 = $query_tsuruha3->fetch_assoc()) {
+         echo "<p> ". $row_tsuruha3["tsuruha_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?>
+
+      </div>
+    </div>
+
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- /////////////////////////////////  QUERY table "tbl_pharmahof"   ////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<?php
+  $sql_pharmahof1 = "SELECT * FROM tbl_pharmahof LIMIT 4";
+  $query_pharmahof1 = $conn->query($sql_pharmahof1);
+
+  $sql_pharmahof2 = "SELECT * FROM tbl_pharmahof LIMIT 4 OFFSET 4";
+  $query_pharmahof2 = $conn->query($sql_pharmahof2);
+
+  $sql_pharmahof3 = "SELECT * FROM tbl_pharmahof LIMIT 4 OFFSET 8";
+  $query_pharmahof3 = $conn->query($sql_pharmahof3);
+?>
+    <div id="tab_pharmahof" class="tab-pane fade">
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_pharmahof1->num_rows > 0) {
+     while($row_pharmahof1 = $query_pharmahof1->fetch_assoc()) {
+         echo "<p> ". $row_pharmahof1["pharmahof_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?>
+
+      </div>
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_pharmahof2->num_rows > 0) {
+     while($row_pharmahof2 = $query_pharmahof2->fetch_assoc()) {
+         echo "<p> ". $row_pharmahof2["pharmahof_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?>
+
+      </div>
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_pharmahof3->num_rows > 0) {
+     while($row_pharmahof3 = $query_pharmahof3->fetch_assoc()) {
+         echo "<p> ". $row_pharmahof3["pharmahof_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?>
+
+      </div>
+    </div>
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- /////////////////////////////////  QUERY table "tbl_ufm"   ////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<?php
+  $sql_ufm1 = "SELECT * FROM tbl_ufm";
+  $query_ufm1 = $conn->query($sql_ufm1);
+?>
+    <div id="tab_ufm" class="tab-pane fade">
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_ufm1->num_rows > 0) {
+     while($row_ufm1 = $query_ufm1->fetch_assoc()) {
+         echo "<p> ". $row_ufm1["ufm_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?>
+
+      </div>
+      <div class="col-sm-4 col-xs-12">
+      </div>
+      <div class="col-sm-4 col-xs-12">
+      </div>
+    </div>
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- /////////////////////////////////  QUERY table "tbl_matsumotokiyoshi"   ////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<?php
+  $sql_matsumotokiyoshi1 = "SELECT * FROM tbl_matsumotokiyoshi";
+  $query_matsumotokiyoshi1 = $conn->query($sql_matsumotokiyoshi1);
+?>
+    <div id="tab_matsumotokiyoshi" class="tab-pane fade">
+      <div class="col-sm-4 col-xs-12">
+
+<?php 
+if ($query_matsumotokiyoshi1->num_rows > 0) {
+     while($row_matsumotokiyoshi1 = $query_matsumotokiyoshi1->fetch_assoc()) {
+         echo "<p> ". $row_matsumotokiyoshi1["matsumotokiyoshi_name"] . "</p>";
+     }
+} else {
+     echo "<h3>DATABASE LOSE</h3>";
+}
+?>
+
+      </div>
+      <div class="col-sm-4 col-xs-12">
+      </div>
+      <div class="col-sm-4 col-xs-12">
+      </div>
+    </div>
+
+
+    <div id="tab_ucare" class="tab-pane fade">
+      <h3>Menu 6</h3>
+      <p>No data</p>
+    </div>
+    <div id="tab_gourmet_market" class="tab-pane fade">
+      <h3>Menu 7</h3>
+      <p>No data</p>
+    </div>
+    <div id="tab_home_fresh_mart" class="tab-pane fade">
+      <h3>Menu 8</h3>
+      <p>No data</p>
+    </div>
+    <div id="tab_central_food_hall" class="tab-pane fade">
+      <h3>Menu 9</h3>
+      <p>No data</p>
+    </div>
+    <div id="tab_tops_super_store" class="tab-pane fade">
+      <h3>Menu 10</h3>
+      <p>No data</p>
+    </div>
+    <div id="tab_tops_daily" class="tab-pane fade">
+      <h3>Menu 11</h3>
+      <p>No data</p>
+    </div>
+    <div id="stor12" class="tab-pane fade">
+      <h3>Menu 12</h3>
+      <p>No data</p>
+    </div>
+    <div id="tab_lawson_108" class="tab-pane fade">
+      <h3>Menu 13</h3>
+      <p>No data</p>
+    </div>
+    <div id="tab_central_drugs_house" class="tab-pane fade">
+      <h3>Menu 14</h3>
+      <p>No data</p>
+    </div>
+    <div id="ta_ogenki" class="tab-pane fade">
+      <h3>Menu 16</h3>
+      <p>No data</p>
+    </div>
+  </div>
+
+	</div>
+</section>
+
+
+</div>
+
+
+
+
+<?php 
+$conn->close();
+
+include 'footer.php'; 
+?>
