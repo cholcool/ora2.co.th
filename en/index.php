@@ -138,41 +138,12 @@
 
 <div class="section firstsec">	
 	<div class="row">
-        <div class="col-md-12">
-              <div id="myCarousel" class="carousel slide" data-ride="carousel" style="display: none;">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-
-                  <div class="item active">
-                    <a href="http://www.ora2.co.th/campaign2017" target="_blank">
-                        <img src="../images/20170217_Ora2_Slide_EN1.jpg" alt="Ora2 New Year New Smile Campaign 2017" class="img-responsive">
-                    </a>
-                  </div>
-
-                  <div class="item">
-                    <a href="http://www.ora2.co.th/campaign2017" target="_blank">
-                        <img src="../images/20170217_Ora2_Slide_EN2.jpg" alt="Ora2 New Year New Smile Campaign 2017" class="img-responsive">
-                    </a>
-                  </div>
-              
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
+        <div class="col-md-12 banner-top-slide">
+            <a href="http://www.ora2.co.th/campaign2017" target="_blank">
+                <img src="../images/20170628_Ora2_banner_contest_for_web_EN.jpg" class="img-responsive topban">
+                <img src="../images/20170628_Ora2_banner_contest_for_web_EN.jpg" class="img-responsive tabletbanner" >
+                <img src="../images/20170628_Ora2_banner_contest_for_web_EN.jpg" class="img-responsive topbanmobile" >
+            </a>
         </div>
 		<div class="col-md-12">
 				<img src="../images/homebanner-top-desktop-en.jpg" class="img-responsive topban" >
