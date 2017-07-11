@@ -138,10 +138,10 @@
 <div class="section firstsec">	
 	<div class="row">
 		<div class="col-md-12 banner-top-slide">
-            <a href="http://www.ora2.co.th/campaign2017" target="_blank">
-                <img src="images/20170628_Ora2_banner_contest_for_web_TH.jpg" class="img-responsive topban">
-                <img src="images/20170628_Ora2_banner_contest_for_web_TH.jpg" class="img-responsive tabletbanner" >
-                <img src="images/20170628_Ora2_banner_contest_for_web_TH.jpg" class="img-responsive topbanmobile" >
+            <a href="/smilecontest2017" target="_blank">
+                <img src="images/20170711_Ora2_banner_contest_for_web_TH.jpg" class="img-responsive topban">
+                <img src="images/20170711_Ora2_banner_contest_for_web_TH.jpg" class="img-responsive tabletbanner" >
+                <img src="images/20170711_Ora2_banner_contest_for_web_TH.jpg" class="img-responsive topbanmobile" >
             </a>
 		</div>
 		<div class="col-md-12 banner-top-header">
